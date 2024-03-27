@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body><div style="height: auto; width: 28%; border:1px solid black;">
+    <h3>온라인 서점 회원가입 페이지</h3>
+    <form>
+        <fieldset>
+            <legend>회원 기본 정보</legend>
+        <table>
+            <tr>
+                <td><label for="ID">아이디:</label></td>
+                <td><input id="ID" type="text" name="아이디" placeholder="아이디 입력" required ></td>
+            </tr>
+            <tr>
+                <td><label for="Pasword">비밀번호 :</label></td>
+                <td><input id="pwd" type="password" name="비밀번호"></td>
+            </td>
+            <tr>
+                <td><label for="username">이름 :</label></td>
+                <td><input id="username" type="text" name="이름"></td>
+            </td>
+            
+        </tr>
+    </table>
+</fieldset>
+
+    <fieldset>
+        <legend>연락처</legend>
+    <table>
+        <tr>
+            <td><label for="E-mail">이메일:</label></td>
+            <td><input id="E-mail" type="text" name="이메일" placeholder="email@gmail.com" required></td>
+        </tr>
+        <tr>
+            <td><label for="Phonnumber">휴대전화:</label></td>
+            <td><input id="Phonnumber" type="text" name="전화번호" placeholder="010.****.****" required></td>
+        </tr>
+    </table>
+    </fieldset>
+
+    <fieldset>
+        <legend>추가 정보</legend>
+    <table>
+        <label for="date" name="생년월일">생년월일:
+            <input type="date"
+                   id="date"
+                   max="2077-12-25"
+                   min="1900-01-01"
+                   value="연도-월-일">
+          </label>
+        <td>성별:</td>
+        <td>
+            <input id="man" type="radio" name="성별" value="남">
+            <label for="man">남자</label>
+            <input id="woman" type="radio" name="성별" value="여">
+            <label for="woman">여자</label>
+            <input id="nothing" type="radio" name="성별" value="없음">
+            <label for="nothing">선택하지않음</label>
+            
+            </html>
+            
+        </tr>
+    </table>
+    <td>본인 사진:</td>
+    <input class="file" type="file" name="사진"><br>
+    <td>관심사:</td>
+    <label><input type="checkbox"  value="JAVA" name="관심사"> JAVA</label>
+    <label><input type="checkbox"  value="HTML" name="관심사"> HTML</label>
+    <label><input type="checkbox"  value="CSS" name="관심사"> CSS</label>
+    <label><input type="checkbox"  value="Javascript" name="관심사"> Javascript</label>
+    <label><input type="checkbox"  value="Algorithm" name="관심사"> Algorithm</label>
+</fieldset>
+<input type="reset" value="초기화">
+<input type="submit" value="회원가입">
+</form>
+</body></div>
